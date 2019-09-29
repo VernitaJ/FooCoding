@@ -1,2 +1,2 @@
 # FooCoding
-HTML/CSS/Week1
+This is where all the assignments and homework will be uploaded.
