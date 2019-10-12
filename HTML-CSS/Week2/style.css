@@ -1,0 +1,134 @@
+body    {
+    background:white;
+    max-width: auto;
+    font-family: Helvetica;
+    font-style: bold;
+    margin: 6%;
+}
+
+#grid-floats   {
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-bottom: 5%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#grid-flex  {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.grid-item  {
+    padding: 0.5% 2% 0.2% 2%;
+    border: solid green;
+    margin: 1% 1% 1% 0%;
+}
+
+#grid-flex .grid-item    {
+    width: 20%;
+    margin: 0% 0.5% 0.5% 0%;
+}
+
+img {
+    width: 65%;
+}
+
+h1  {
+    color: rgb(155, 47, 110);
+    font-size: 4vw;
+    text-decoration: aqua;
+}
+
+h2  {
+    font-size: 3vw;
+    color:rgb(39, 136, 63);
+    text-indent: 15px;
+}
+
+h3  {
+    font-size: 2.3vw;
+    font-family: candara;
+}
+
+p   {
+    font-size: 1vw;
+}
+
+li:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#grid-flex li:nth-child(1) {
+    width: 45%;
+    margin: 0% 0.5% 0.5% 0%;
+}
+
+li  {
+    list-style-type: none; 
+}
+
+
+@media (min-width: 200px) and (max-width: 767.98px) {
+    li:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 767.98px)    {
+    #grid-floats {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+    }
+
+
+@media (min-width: 200px) and (max-width: 767.98px) { 
+    #grid-flex .grid-item  {
+        width: 43%;
+     }
+}
+
+@media (min-width: 200px) and (max-width: 767.98px) { 
+    #grid-flex .grid-item:nth-child(1) {
+        width: 100%;
+     }
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){ 
+    #grid-flex .grid-item  {
+    width: 27%;
+     }
+     }
+
+    
+@media(min-width: 768px) and (max-width: 991.98px){
+    .grid-item  {
+        grid-column: span 2;}
+    }
+
+@media(min-width: 768px) and (max-width: 991.98px){
+    #grid-floats {
+        float: left;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
+
+@media(min-width: 768px) and (max-width: 991.98px) {
+    li:nth-child(-n+2) {
+        grid-column: span 3;
+    }    
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){ 
+    #grid-flex li:nth-child(-n+2) {
+        width: 43%;
+    }
+}
