@@ -37,6 +37,10 @@ img {
     width: 65%;
 }
 
+img:hover {
+    width: 75%;
+}
+
 h1  {
     color: rgb(155, 47, 110);
     font-size: 4vw;
