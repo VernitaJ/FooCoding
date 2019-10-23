@@ -1,0 +1,238 @@
+body  {
+    background-color:#F5F5F5;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif
+  }
+  
+  .menubar  {
+    float: left;
+    margin: 0.4% 0px 0px 2%;
+  }
+  
+  .headerlink   {
+    font-size: 0.9rem;
+    color:  #3367d6;
+    font-weight: 600;
+    float: right;
+    width: 24%;
+    font-style: bold;
+    padding: 0% 0% 5% 5%;
+    line-height: 1.5;
+  }
+
+  .menu {
+    width: 20px;
+    height: 2px;
+    background-color: #404040;
+    margin: 0% 0% 15% 20%;
+    left: 1%;
+    cursor: pointer;
+  }
+  
+  .navbar { 
+    float: right;
+    overflow: hidden; 
+    line-height: 5%;
+    padding-right: 5%;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #424242;
+    text-align: justify;
+    line-height: 1.7rem;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .dropdownnav  {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .headerimg    {
+    z-index: 0;
+}
+  .dropdownnav .dropdownbtn  {
+    float: left;
+    color: #424242;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    background: none;
+  }
+  
+  .navbar a:hover, .dropdownnav:hover, .dropdownbtn:hover {
+    background-color: #E8E8E8;
+  }
+  
+  .dropdowncontent  {
+    display: none;
+    color: gray;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 4%;
+    box-shadow: 10px 5px 5px #757575;
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 2;
+  }
+  
+  .dropdownbtn:hover .dropdowncontent {
+    display: block;
+  }
+  
+  .subscribebtn  {
+    background: #3367d6;
+    font-weight: bold;
+    line-height: 1rem;
+    border: none;
+    width: 8rem;
+    height: 3rem;   
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+  
+  .subscribebtn:hover  {
+    background-color: #1589FF;
+  }
+  .siteheader {
+    display: inline-block;
+    background-image: url("https://www.thinkwithgoogle.com/_qs/images/_jeKjxIgwn-7XUyCvxfn9mBcVfE=/34371/fill-1440x432%7Cjpegquality-85/tms-hero3_1.jpg");
+    width: 100%;
+    height: auto;
+  }
+  
+  .sitelanguage {
+    background-color: transparent; 
+    float: left;
+    left: 23%;
+    max-width: 14.25rem;
+    color: #757575;
+    font-size: 1rem;
+    padding: .125rem .9375rem .125rem .625rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .languageoptions  {
+    background-color: gray;
+    border: none;
+  }
+  
+  .textsection  {
+    padding: 2% 10%;
+  }
+  
+  .headertext {
+    font-size: 2.4375rem;
+    font-weight: 300;
+    color: #424242;
+  }
+  
+  .headerp  {
+    font-size: 18px;
+  }
+  
+  h1, h2, p   {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: #404040;
+  }
+
+  h3{
+    margin: 0px 0px 0px 4.5%;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #424242;
+    padding-top: 60px;
+  }
+  
+  .imglogo {
+    float: left;
+    object-fit: cover;
+    height: 1.65rem;
+    width: 13rem;
+    left: 3.5%;
+    cursor: pointer;
+    top: 4%;
+  }
+  
+  .main {
+      display: block;
+      margin: 0px 0px 0px 5%;
+      width: 100%;
+  }
+
+  .gridbox {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid-item{
+    padding: 0% 2% 0.2% 0%;
+    border: none;
+    margin: 3% 2% 0% 0%;
+    width: 20%;
+    height: 380px;
+    background-color: white;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+  }
+
+  .grid-item img  {
+    max-width: 100%;
+    position: relative;
+    padding: 10% 0% 0% 4%;
+    align-items: center;
+  }
+
+  .grid-item p   {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    color: black;
+    position: absolute;
+    width: 10%;
+    padding-left: 3%;
+  }
+
+  .largegrid-item  {
+    position: relative;
+    padding: 0px;
+    border: none;
+    margin: 3% 2% 0% 0%;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+  }
+
+  .largegrid-item img  {
+    max-width: 100%;
+  }
+
+  .largegrid-item p   {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    color: black;
+    position: absolute;
+    width: 10%;
+    padding-left: 3%;
+  }
+
+  a {
+    max-width: 45%; 
+  }
