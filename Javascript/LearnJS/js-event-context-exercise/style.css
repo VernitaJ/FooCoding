@@ -1,0 +1,12 @@
+.btn {
+  display: block;
+  background: red;
+}
+
+/*
+This class name is inspired by the BEM convention:
+https://seesparkbox.com/foundry/bem_by_example
+*/
+.btn--clicked {
+  background: green;  
+}

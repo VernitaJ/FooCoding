@@ -1,0 +1,36 @@
+/*
+Questions:
+- what is "display: flex" and "flex: 1"?
+- what is "input[type="text"]"?
+*/
+
+#chat {
+  display: flex;
+}
+
+#chat input[type="text"],
+#chat input[type="submit"] {
+  padding: 5px 10px;
+  border: 1px solid #666;
+  outline: none;
+}
+
+#chat input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#chat input[type="text"]:focus {
+  border-color: #369;
+}
+
+#chat input[type="submit"] {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+#chat input[type="submit"]:active {
+  border-color: #369;
+  background-color: #369;
+  color: #fff;
+}
