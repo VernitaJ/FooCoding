@@ -1,0 +1,177 @@
+body {
+  background-color: white;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menubar {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  color: grey;
+  cursor: pointer;
+}
+
+.menu {
+  width: 20px;
+  height: 2px;
+  background-color: darkslategrey;
+  margin-bottom: 4px;
+}
+
+/* Navbar container */
+.navbar {
+  margin-top: -30px;
+  overflow: hidden;
+  font-family: Arial;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.logo {
+  position: absolute;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropdownbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropdownbtn {
+  background-color: white;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdowncontent {
+  display: none;
+  margin-left: 30px;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  border-radius: 5px 5px;
+  box-shadow: 0px 1px 1px 1px lightgrey;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdowncontent a {
+  float: none;
+  color: darkslategrey;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdowncontent a:hover {
+  color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.subscribebtn {
+  background: #3367d6;
+  font-weight: bold;
+  line-height: 1rem;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.subscribebtn:hover {
+  background-color: #1589ff;
+}
+
+.siteheader {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.sitelanguage {
+  position: absolute;
+  background-color: transparent;
+  left: 20%;
+  margin-top: -20px;
+  max-width: 14.25rem;
+  color: #757575;
+  font-size: 1rem;
+  padding: 0.125rem 0.9375rem 0.125rem 0.625rem;
+  cursor: pointer;
+  border: none;
+}
+
+.languageoptions {
+  background-color: gray;
+  border: none;
+}
+
+.textsection {
+  padding: 2% 10%;
+}
+
+.headertext {
+  font-size: 2.4375rem;
+  font-weight: 300;
+  color: #424242;
+  webkit-font-smoothing: antialiased;
+}
+
+.headerp {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  font-color: #404040;
+}
+
+img {
+  float: left;
+  object-fit: cover;
+  height: 1.65rem;
+  width: 13rem;
+  left: 3.5%;
+  cursor: pointer;
+  top: 4%;
+}
