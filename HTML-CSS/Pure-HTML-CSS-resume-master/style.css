@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+}
+
+main {
+  margin-left: 100px;
+  width: 1300px;
+  height: 1300px;
+  background: white;
+  border-style: double;
+  border-width: 15px;
+  border-color: #0e76a8;
+  padding: 10px;
+}
+
+section {
+  line-height: 25px;
+  justify-content: center;
+  position: relative;
+  top: 250px;
+  z-index: 6;
+}
+
+#topblock {
+  position: fixed;
+  height: 200px;
+  width: 1300px;
+  background-color: #33ccff;
+  z-index: 4;
+  opacity: 0.4;
+}
+
+#box1 {
+  height: auto;
+  float: left;
+  position: absolute;
+  left: 170px;
+  top: 40px;
+  line-height: 40px;
+}
+
+#box2 {
+  float: left;
+  position: absolute;
+  top: 40px;
+  left: 800px;
+  width: 450px;
+}
+
+#box3 {
+  position: absolute;
+  top: 420px;
+  float: left;
+  left: 170px;
+  width: 600px;
+}
+
+#box4 {
+  float: left;
+  position: absolute;
+  left: 800px;
+  top: 510px;
+  width: 600px;
+}
+
+#box5 {
+  position: absolute;
+  top: 900px;
+  width: 1100px;
+  float: left;
+  left: 170px;
+  background: #0e76a8;
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-indent: 20px;
+}
+#imgblocktop {
+  display: inline-block;
+  width: 350px;
+  height: 160px;
+  background: #0e76a8;
+  position: absolute;
+  top: 72px;
+  left: 750px;
+  font-family: Helvetica;
+  text-align: left;
+  text-indent: 40px;
+  z-index: 4;
+}
+
+#imgblockbottom {
+  position: fixed;
+  opacity: 0.9;
+  left: 772px;
+  top: 232px;
+  z-index: 5;
+}
+
+#left {
+  width: 50px;
+  height: 1275px;
+  background-color: #ffff66;
+  float: left;
+  position: relative;
+  z-index: 100;
+}
+
+.resumeimg {
+  display: inline-block;
+  position: absolute;
+  height: 210px;
+  left: 600px;
+  border: 5px solid yellow;
+  top: 60px;
+  z-index: 6;
+}
+
+h1,
+h2 {
+  font-family: Helvetica;
+  color: #ffff66;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Helvetica;
+  color: midnightblue;
+}
+
+ul {
+  font-family: helvetica;
+  color: midnightblue;
+}
+
+.workex {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.contact {
+  font-family: Helvetica;
+  text-indent: 40px;
+  font-weight: bold;
+  font-color: white;
+}
+
+a {
+  font-family: Helvetica;
+  font-color: white;
+  font-size: 28px;
+}
