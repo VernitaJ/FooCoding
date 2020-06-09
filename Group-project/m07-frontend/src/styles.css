@@ -1,0 +1,128 @@
+.App {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.home-view__user-names {
+  font-family: Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.home-view__link,
+.home-view__link:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.edit-profile__heading {
+  font-family: Helvetica, sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.edit-profile__user-name {
+  font-family: Helvetica, sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.edit-profile__label {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  color: darkslategrey;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.edit-profile__input {
+  margin: 10px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.edit-profile__update--btn {
+  font-family: Helvetica, sans-serif;
+  margin-top: 20px;
+  background-color: grey;
+  color: white;
+  border-radius: 5px 20px 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.edit-profile__link {
+  font-family: Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  color: darkblue;
+  background-color: lightblue;
+  border-radius: 5px 20px 5px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.profile-view__link,
+.profile-view__link:visited {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-transform: capitalize;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.profile-view__background {
+  background-color: lightgrey;
+  background: url(https://img.lemde.fr/2019/04/22/0/191/1619/1079/688/0/60/0/e39da8d_2FIads9h8wB-0SwSgxVaVWsp.jpg)
+    lightgrey top center no-repeat;
+  background-size: 300px, contain;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px 10px;
+}
+
+.profile-view__image {
+  border-radius: 50%;
+  border: solid white 5px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.profile-view__title {
+  font-family: Helvetica;
+  text-transform: capitalize;
+  color: #2f4f4f;
+  margin-top: 250px;
+}
+
+.profile-view_heading {
+  color: #2f4f4f;
+}
+
+.profile-view__link-list {
+  list-style: none;
+  display: flex;
+}
+.profile-view__link {
+  font-family: Helvetica, sans-serif;
+  margin-right: 20px;
+  margin-left: 30px;
+  background-color: lightskyblue;
+  font-weight: bold;
+  border-radius: 5px 20px 5px;
+  width: 100px;
+  height: 40px;
+}
