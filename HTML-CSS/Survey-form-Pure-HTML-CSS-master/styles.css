@@ -1,0 +1,118 @@
+body {
+  font-family: Helvetica;
+  background: url(https://blog.hdwallsource.com/wp-content/uploads/2014/11/pretty-dandelion-wallpaper-21993-22549-hd-wallpapers.jpg);
+  opacity: 1;
+}
+
+#surveysect {
+  padding: 3%;
+  background: lightyellow;
+  opacity: 0.9;
+  position: absolute;
+  width: 800px;
+  height: auto;
+  left: 20%;
+}
+
+#title {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+#description {
+  display: box;
+  color: lightyellow;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#survey-form {
+  padding: 3%;
+  height: auto;
+}
+
+.form-line {
+  font-size: 1.125rem;
+  color: midnightblue;
+  font-weight: bold;
+  line-height: 3;
+}
+
+label {
+  align-items: center;
+  font-size: 1.125rem;
+}
+#submit {
+  background-color: midnightblue;
+  color: yellow;
+  border-radius: 5px;
+  width: 400px;
+  align: center;
+}
+
+#plan {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 5%;
+  width: 200px;
+  background: lightgreen;
+}
+
+#name {
+  font-size: 18px;
+  margin-left: 4%;
+} /*validationerrornoname with label & placeholder text*/
+
+#name-label {
+  align-items: center;
+  text-indent: 10%;
+  font-size: 1.125rem;
+}
+
+#email {
+  font-size: 18px;
+  margin-left: 4%;
+} /*<!--validationerroremail label & ph txt*/
+
+#email-label {
+  align-items: center;
+  text-indent: 10%;
+  font-size: 1.125rem;
+}
+
+#number {
+  font-size: 18px;
+  margin-left: 4%;
+} /*<!--validationerrorrange label & ph text*/
+
+#number-label {
+  align-items: center;
+  text-indent: 10%;
+  font-size: 1.125rem;
+}
+
+#dropdown {
+  font-size: 18px;
+  margin-left: 4%;
+}
+
+#radiobutton {
+  font-size: 18px;
+  margin-left: 4%;
+} /*value att*/
+
+#checkboxes {
+  font-size: 18px;
+  margin-left: 4%;
+} /*value att*/
+
+#additionalcomments {
+  font-size: 18px;
+}
+
+#submit {
+  font-size: 18px;
+}

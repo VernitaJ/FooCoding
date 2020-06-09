@@ -1,0 +1,64 @@
+<DOCTYPE html>
+
+  <html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>CopySite</title>
+    <meta name="description" content="Think with Google site">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <br>
+  <h1 id="title">Survey of Positive Thinking</h1><br>
+  <p id="description">This survey is for the purposes of a study into neurolinguistic programming and its effects on people's lives.</p><br>
+  <section id="surveysect">
+    <form id="survey-form">
+      <div class="form-line">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+      </div>
+      <div class="form-line">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+      </div>
+      <div class="form-line">
+        <label id="number-label" for="number">Number</label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+      </div>
+      <div>
+        <p class="form-line">What is your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required="">
+  <option disabled="" selected="" value="">Select</option>
+  <option value="student">Student</option>
+  <option value="job">Full Time Job</option>
+  <option value="learner">Full Time Learner</option>
+  <option value="preferNo">Prefer not to say</option>
+  <option value="other">Other</option>
+  </select>
+      </div>
+      <label>
+        <p class="form-line">Perception of Life</p>
+        <input type="radio" name="life" value="satisfied" class="happiness" checked>Satisfied
+      </label>
+      <label>
+        <input type="radio" name="life" value="dissatisfied" class="happiness">Dissatisfied
+      </label>
+    <label>
+      <p class="form-line">What do you do to release stress?</p>
+      <input type="checkbox" name="habits" value="train">Excercise
+    </label>
+    <label>
+      <input type="checkbox" name="habits" value="meditate">Meditate
+    </label>
+      <label>
+        <p class="form-line">What is your plan to approach the week positively?</p>
+        <textarea id="plan" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+      </label>
+      <div class="form-line">
+        <button type="submit" id="submit" "">Submit</button>
+      </div>
+        </form>
+  </section>
+</body>
+</html>
