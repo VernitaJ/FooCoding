@@ -8,7 +8,7 @@
     "start:dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "fastify": "2.12.0",
+    "fastify": "2.15.1",
     "fastify-cors": "3.0.1",
     "pg": "7.18.1"
   },
